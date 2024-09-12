@@ -49,6 +49,7 @@ remapJar {
 }
 
 jar {
+    version = version + "-forge"
     archiveClassifier.set("dev")
 }
 
